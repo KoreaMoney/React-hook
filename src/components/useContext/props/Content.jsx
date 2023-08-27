@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import UsePage from "../UsePage";
+import {UsePage} from "../UsePage";
 
 const Content = ({ isDark }) => {
   // useContext사용 시
