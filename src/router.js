@@ -6,6 +6,7 @@ import UseReducer from "./components/UseReducer";
 import UseContext from "./components/UseContext";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
+import ReactMemo from "./components/React.memo";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/useCallback",
         element: <UseCallback />,
+      },
+      {
+        path: "/reactMemo",
+        element: <ReactMemo />,
       },
     ],
   },

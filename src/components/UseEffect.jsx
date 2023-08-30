@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 /**
  * @returns kimdowon 김도원 23.08.27
+ *
  * useEffect( 콜백 함수, [의존성 배열])
+ *
  * 함수가 마운트가 되었을때
  * 콜백 함수 이후 의존성 배열의 값이 변할 때
  * 함수가 언 마운트가 되었을 때
+ *
  * 작동한다.
  */
 const UseEffect = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0); // State 변경되면 rendering
   const [name, setName] = useState("");
 
   const handleCountUpdate = () => {
@@ -22,6 +25,7 @@ const UseEffect = () => {
   // 의존성 배열이 없는 경우
   useEffect(() => {
     console.log("렌더링을 합니다 🎢");
+    //......
   });
 
   // // 의존성 배열만 있는 경우

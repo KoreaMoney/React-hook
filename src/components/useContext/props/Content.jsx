@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import UsePage from "../UsePage";
+import { UsePage } from "../usePage";
 
-const Content = ({ isDark }) => {
+const Content = () => {
   // useContext사용 시
-  // const { isDark } = useContext(UsePage);
-  // console.log("Content : isDark ? ", isDark);
+  const { isDark } = useContext(UsePage);
+  console.log("Content : isDark ? ", isDark);
   return (
     <div
       className="content"

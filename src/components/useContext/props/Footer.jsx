@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UsePage } from "../usePage";
 
-const Footer = ({ isDark, setIsDark }) => {
+const Footer = () => {
   // useContext사용 시
-  // const { isDark,setIsDark } = useContext(UsePage);
-  // console.log("Content : isDark ? ", isDark);
-  // console.log("Content : setIsDark ? ", setIsDark);
+  const { isDark, setIsDark } = useContext(UsePage);
+  console.log("Content : isDark  ", isDark);
+  console.log("Content : setIsDark  ", setIsDark);
 
   const isToggleTheme = () => {
     setIsDark(!isDark);

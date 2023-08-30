@@ -23,6 +23,9 @@ const App = () => {
       <button>
         <Link to="/useCallback">useCallback 확인</Link>
       </button>
+      <button>
+        <Link to="/reactMemo">React.memo 확인</Link>
+      </button>
     </div>
   );
 };

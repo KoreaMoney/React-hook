@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Page from "./useContext/Page";
-import { UsePage } from "./useContext/UsePage";
+import { UsePage } from "./useContext/usePage";
 /**
  * @returns kimdowon 김도원 23.08.27
  * 🌵컴포넌트 트리 구조
