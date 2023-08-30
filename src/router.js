@@ -7,12 +7,22 @@ import UseContext from "./components/UseContext";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
 import ReactMemo from "./components/React.memo";
+import UseState from "./components/UseState";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "",
+        element: <Home />,
+      },
+      {
+        path: "/useState",
+        element: <UseState />,
+      },
       {
         path: "/useEffect",
         element: <UseEffect />,

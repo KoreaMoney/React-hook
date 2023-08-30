@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.27
+ * @returns kimdowon 김도원 23.08.30
  * 자주 필요한 값은 다시 부르는게 아니라 저장된 값을 부르는 것
  * 렌더링 -> Component함수 호출 -> 모든 내부 변수 초기화
  *

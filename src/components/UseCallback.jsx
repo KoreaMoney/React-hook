@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.27
+ * @returns kimdowon 김도원 23.08.31
  * useMemo와 같이 memoization한다
  * useMemo와 다른 점은 인자를 전달한 콜백함수 그 자체를 전달한다
  * 함수를 필요할때 마다 매번 선언하는게 아니라 캐시된 함수를 부른다
