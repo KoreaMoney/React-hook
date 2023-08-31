@@ -1,6 +1,5 @@
-# React Hook 공부하며 정리한 내용입니다.
-
-만든이 : 김도원
+# React Hook 학습 및 스터디
+@DOWON_KIM 
 
 ## CRA로 제작되었습니다.
 
