@@ -1,4 +1,4 @@
-# React Hook 학습 및 스터디
+# React Hook 학습 및 정리
 @DOWON_KIM 
 
 ## Make by CRA
