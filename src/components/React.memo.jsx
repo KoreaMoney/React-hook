@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ChildComponent from "./react.memo/ChildComponent";
 /**
  * @returns kimdowon 김도원 23.08.31
- *
  * 매번 렌더링마다 무거운 로직을 처리할때 성능 측면에서 부담이 된다면
  * 불필요한 렌더링을 막기 위해 사용하는 것
  * props를 보내는 쪽이 렌더링이 될때 마다 props를 받는 쪽은 계속 렌더링이 된다

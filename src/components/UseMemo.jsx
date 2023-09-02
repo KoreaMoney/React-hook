@@ -34,11 +34,11 @@ const UseMemo = () => {
 
   // const sum = useMemo(() => {
   //   return calculate(number);
-  // }, []);
+  // }, [number]);
 
   // const otherSum = useMemo(() => {
   //   return otherCalculate(otherNumber);
-  // }, []);
+  // }, [otherNumber]);
 
   return (
     <div>

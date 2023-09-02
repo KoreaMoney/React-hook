@@ -27,6 +27,10 @@ const App = () => {
         <br />
         <Link to="/reactMemo">React.memo 확인</Link>
         <br />
+        <Link to="/customHook">CustomHook 확인</Link>
+        <br />
+        <Link to="/customHook2">CustomHook2 확인</Link>
+        <br />
       </div>
     </div>
   );

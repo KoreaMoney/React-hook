@@ -9,6 +9,8 @@ import UseCallback from "./components/UseCallback";
 import ReactMemo from "./components/React.memo";
 import UseState from "./components/UseState";
 import Home from "./pages/Home";
+import CustomHook from "./components/CustomHook";
+import CustomHook2 from "./components/CustomHook2";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,14 @@ const router = createBrowserRouter([
       {
         path: "/reactMemo",
         element: <ReactMemo />,
+      },
+      {
+        path: "/customHook",
+        element: <CustomHook />,
+      },
+      {
+        path: "/customHook2",
+        element: <CustomHook2 />,
       },
     ],
   },
