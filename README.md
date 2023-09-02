@@ -1,23 +1,27 @@
-# React Hook 공부하며 정리한 내용입니다.
+# React Hook 학습 및 정리
+@DOWON_KIM 
 
-만든이 : 김도원
-
-## CRA로 제작되었습니다.
+## Make by CRA
 
 ### `npm install`
-
 React-Router-dom 설치를 위한 시작하기
 
 ## React Hook정리 내용
 
-### useEffect
+### 👉 useState
 
-### useRef
+### 👉 useEffect
 
-### useReducer
+### 👉 useRef
 
-### useContext
+### 👉 useReducer
 
-### useMemo
+### 👉 useContext
 
-### useCallback
+### 👉 useMemo
+
+### 👉 useCallback
+
+### 👉 React.memo
+
+### 👉 Custom Hook
