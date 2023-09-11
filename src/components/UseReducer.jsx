@@ -1,6 +1,8 @@
-import React, { useReducer, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.27
+ * @brief useReducer
+ * @author Kim Dowon
+ * @Date 23.08.27.
+ * @returns
  * 여러개의 하위 값을 통제하려고 할때 쉽게 하기 위해 사용됩니다
  * 유지보수도 쉽다
  *
@@ -17,6 +19,8 @@ import React, { useReducer, useState } from "react";
  * 3. action (내용 🧾)
  * -> 요구할때 담는 요구 내용 - 내용 : "1만원 입금"
  */
+import React, { useReducer, useState } from "react";
+
 // 국민은행 창구
 const ACTION_TYPES = {
   deposit: "deposit",

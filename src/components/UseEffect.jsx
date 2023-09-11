@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.27
- *
+ * @brief useMemo
+ * @author Kim Dowon
+ * @Date 23.08.27.
+ * @returns
  * useEffect( 콜백 함수, [의존성 배열])
  *
  * 함수가 마운트가 되었을때
@@ -10,6 +11,8 @@ import React, { useEffect, useState } from "react";
  *
  * 작동한다.
  */
+import React, { useEffect, useState } from "react";
+
 const UseEffect = () => {
   const [count, setCount] = useState(0); // State 변경되면 rendering
   const [name, setName] = useState("");

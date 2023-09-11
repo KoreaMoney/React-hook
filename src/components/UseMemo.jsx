@@ -1,6 +1,8 @@
-import React, { useMemo, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.30
+ * @brief useMemo
+ * @author Kim Dowon
+ * @Date 23.08.30.
+ * @returns
  * 자주 필요한 값은 다시 부르는게 아니라 저장된 값을 부르는 것
  * 렌더링 -> Component함수 호출 -> 모든 내부 변수 초기화
  *
@@ -12,6 +14,8 @@ import React, { useMemo, useState } from "react";
  * 2. 꼭 필요할 때만 사용하기
  * 3. 무분별하게 남용할 시 성능은 떨어진다.
  */
+import React, { useMemo, useState } from "react";
+
 const calculate = (number) => {
   console.log("함수가 불러옵니다");
   for (let i = 0; i < 999999999; i++) {

@@ -1,6 +1,8 @@
-import React, { useState } from "react";
 /**
- * @returns kimdowon 김도원 23.09.03.
+ * @brief useState
+ * @author Kim Dowon
+ * @Date 23.09.03.
+ * @returns
  * State란
  * -> 컴포넌트가 가질 수 있는 상태
  *
@@ -8,6 +10,7 @@ import React, { useState } from "react";
  * -> state의 상태를 간편하게 업데이트하고 수정할 수 있게 한다
  * const [state,setState]=useState(초기값);
  */
+import React, { useState } from "react";
 
 const nameArray = () => {
   console.log("state다시 작업");

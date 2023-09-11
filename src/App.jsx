@@ -1,3 +1,8 @@
+/**
+ * @brief App 컴포넌트
+ * @author Kim Dowon
+ * @Date 23.08.27.
+ */
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 

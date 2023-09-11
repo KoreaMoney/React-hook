@@ -1,6 +1,9 @@
 import React, { useRef, useState } from "react";
 /**
- * @returns kimdowon 김도원 23.08.27
+ * @brief useRef
+ * @author Kim Dowon
+ * @Date 23.08.27.
+ * @returns
  * ref object는 언제든지 수정이 가능하다
  * component가 unmount되기 전까지는 값을 유지시킨다
  *

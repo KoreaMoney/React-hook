@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Page from "./useContext/Page";
-import { UsePage } from "./useContext/usePage";
 /**
- * @returns kimdowon 김도원 23.08.27
+ * @brief useContext
+ * @author Kim Dowon
+ * @Date 23.08.27.
+ * @returns
  * 🌵컴포넌트 트리 구조
  * 1. App안에서 전역적으로 사용하기 쉽게 하기 위해 사용
  * 2. 상위 컴포넌트에서 하위 컴포넌트에 필요한 값을 전달한다
@@ -14,6 +14,10 @@ import { UsePage } from "./useContext/usePage";
  * 그러니 꼭 필요한 곳에만 사용해야 한다
  * Prop drilling만 피하려면 사용하지 마라
  */
+import React, { useState } from "react";
+import Page from "./useContext/Page";
+import { UsePage } from "./useContext/usePage";
+
 const UseContext = () => {
   const [isDark, setIsDark] = useState(false);
 
