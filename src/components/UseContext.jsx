@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import Page from './useContext/Page';
+import { UsePage } from './useContext/UsePage';
 /**
  * @brief useContext
  * @author Kim Dowon
@@ -14,21 +17,18 @@
  * 그러니 꼭 필요한 곳에만 사용해야 한다
  * Prop drilling만 피하려면 사용하지 마라
  */
-import React, { useState } from "react";
-import Page from "./useContext/Page";
-import { UsePage } from "./useContext/usePage";
 
 const UseContext = () => {
-  const [isDark, setIsDark] = useState(false);
+    const [isDark, setIsDark] = useState(false);
 
-  return (
-    <div>
-      {/* <Page isDark={isDark} setIsDark={setIsDark} /> */}
-      <UsePage.Provider value={{ isDark, setIsDark }}>
-        <Page />
-      </UsePage.Provider>
-    </div>
-  );
+    return (
+        <div>
+            {/* <Page isDark={isDark} setIsDark={setIsDark} /> */}
+            <UsePage.Provider value={{ isDark, setIsDark }}>
+                <Page />
+            </UsePage.Provider>
+        </div>
+    );
 };
 
 export default UseContext;
